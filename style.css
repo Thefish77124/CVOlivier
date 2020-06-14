@@ -1,11 +1,108 @@
-#conteneur
+.body
+{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 100%;
+		height: 100%;
+
+	}
+
+.photo
 {
 	display: flex;
 	flex-direction: column;
+	width: 30%;
+	height: 20%;
+	background-color: blue;
+	flex-wrap: wrap;
+
+
+	
+}
+.sectioncontact
+{
+	
+	order: 2;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: 40%;
+	background-color: red;
+flex-wrap: wrap;
+}
+
+.sectionaproposdemoi
+{
+	order: 3;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: 30%;
+	background-color: green;
+flex-wrap: wrap;
+
+}
+
+.sectionloisirs
+{
+	order: 4;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: 10%;
+	background-color: red;
+	flex-wrap: wrap;
+}
+
+
+.header
+{
+	order: 5;
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	height: 20%;
+	background-color: yellow;
+	flex-wrap: wrap;
+
+}
+
+.sectionformation
+{
+	order: 6;
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	height: 30%;
+	background-color: orange;
+
+}
+
+.sectionexperienceprofessionnelle
+{
+	order: 7;
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	height: 30%;
+	background-color: pink;
+
+}
+
+.sectionrecommandations
+{
+	order: 8;
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	height: 20%;
+	background-color: cyan;
+
 }
 
 h1
 {
-	color: green;
+	color: black;
 
 }
