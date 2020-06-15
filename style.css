@@ -1,21 +1,23 @@
-.body
+body
 {
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		width: 100%;
-		height: 100%;
+	display: flex;
+	/*flex-direction: row;*/
+	width: 100%;
+	overflow-x:hidden;
+}
 
-	}
+.colgauche
+{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
 
 .photo
 {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
-	height: 20%;
 	background-color: blue;
-	flex-wrap: wrap;
 
 
 	
@@ -26,10 +28,20 @@
 	order: 2;
 	display: flex;
 	flex-direction: column;
-	width: 30%;
-	height: 40%;
 	background-color: red;
-flex-wrap: wrap;
+	font-family: serif;
+	font-size: 1.2em;
+	line-height: 4px;
+}
+.sectioncontact h3
+{
+	color: red;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: black;
+	background-size: 5em;
+	padding: 20px;
+
 }
 
 .sectionaproposdemoi
@@ -37,34 +49,67 @@ flex-wrap: wrap;
 	order: 3;
 	display: flex;
 	flex-direction: column;
-	width: 30%;
-	height: 30%;
+	font-size: 1.2em;
+	font-family: "verdana";
 	background-color: green;
-flex-wrap: wrap;
 
 }
 
+.sectionaproposdemoi h3
+{
+	color: green;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: black;
+	background-size: 5em;
+	padding: 20px;
+
+}
 .sectionloisirs
 {
 	order: 4;
 	display: flex;
 	flex-direction: column;
-	width: 30%;
-	height: 10%;
 	background-color: red;
-	flex-wrap: wrap;
 }
 
+
+.sectionloisirs h3
+{
+	color: red;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: black;
+	padding: 20px;
+}
+
+.coldroite
+{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
 
 .header
 {
 	order: 5;
 	display: flex;
 	flex-direction: column;
-	width: 70%;
-	height: 20%;
-	background-color: yellow;
-	flex-wrap: wrap;
+	background-color: white;
+
+
+}
+
+.olivier
+{
+color: blue;
+display: inline;
+}
+
+.FISCHER
+{
+	display: inline;
+	color: black;
 
 }
 
@@ -73,21 +118,39 @@ flex-wrap: wrap;
 	order: 6;
 	display: flex;
 	flex-direction: column;
-	width: 70%;
-	height: 30%;
+	font-size: 1.2em;
+	font-family: "helvetica", sans-serif; 
 	background-color: orange;
 
 }
 
+.sectionformation h2
+{
+	color: orange;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: black;
+	background-size: 10px;
+	padding: 20px;
+}
 .sectionexperienceprofessionnelle
 {
 	order: 7;
 	display: flex;
 	flex-direction: column;
-	width: 70%;
-	height: 30%;
+	font-size: 1.2em;
+	line-height: 4px;
 	background-color: pink;
 
+}
+
+.sectionexperienceprofessionnelle h2
+{
+	color: pink;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: black;
+	padding: 20px;
 }
 
 .sectionrecommandations
@@ -95,14 +158,26 @@ flex-wrap: wrap;
 	order: 8;
 	display: flex;
 	flex-direction: column;
-	width: 70%;
-	height: 20%;
+	font-size: 1.2em;
+	line-height: 4px;
 	background-color: cyan;
 
 }
-
-h1
+.sectionrecommandations h2
 {
-	color: black;
+	color: cyan;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: black;
+	padding: 20px;
+}
 
+p
+{
+	font-size: 1.2em;
+}
+
+h3
+{
+	padding: 10px;
 }
