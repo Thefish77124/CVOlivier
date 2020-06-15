@@ -18,7 +18,7 @@ body
 	display: flex;
 	flex-direction: column;
 	background-color: blue;
-
+	height: 
 
 	
 }
@@ -96,20 +96,50 @@ body
 	display: flex;
 	flex-direction: column;
 	background-color: white;
+}
 
+.developpeur
+{
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	margin-top: 0px;
+	margin-left: 40px;
+}
+
+.devel
+{
+	display: flex;
+	text-decoration: underline;
+	text-decoration-color: blue;
+	}
+
+.oppeur
+{
+	display: flex;
+
+	
+}
+.olivierfischer
+{
+display: flex;
+margin-left: 40px;
 
 }
 
 .olivier
 {
 color: blue;
-display: inline;
+display: inline-flex;
+margin-bottom: 0px;
+margin-right: 10px;
 }
 
 .FISCHER
 {
-	display: inline;
 	color: black;
+	display: inline-flex;
+	margin-bottom: 0px;
 
 }
 
@@ -126,13 +156,12 @@ display: inline;
 
 .sectionformation h2
 {
-	color: orange;
+	color: black;
 	font-size: 1.5em;
 	text-align: center;
-	background-color: black;
-	background-size: 10px;
-	padding: 20px;
 }
+
+
 .sectionexperienceprofessionnelle
 {
 	order: 7;
