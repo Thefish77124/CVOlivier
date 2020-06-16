@@ -158,8 +158,38 @@ margin-right: 10px;
 {
 	color: black;
 	font-size: 1.5em;
-	text-align: center;
+	display: flex;
+	margin-left: 20px;
+	
 }
+.iconeformation
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.villeentreprise
+{
+display: flex;
+flex-direction: row;
+}
+
+.ville
+{
+	display: flex;
+	flex-direction: column;
+	width: 10%;
+
+}
+
+.entreprise
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+}
+
 
 
 .sectionexperienceprofessionnelle
