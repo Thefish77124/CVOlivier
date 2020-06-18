@@ -18,9 +18,9 @@ body
 	display: flex;
 	flex-direction: column;
 	background-color: blue;
-	height: 
+	width: 200px;
+	height: 200px;
 
-	
 }
 .sectioncontact
 {
@@ -81,6 +81,12 @@ body
 	text-align: center;
 	background-color: black;
 	padding: 20px;
+}
+
+.iconesloisirs
+{
+display: flex;
+
 }
 
 .coldroite
@@ -166,6 +172,7 @@ margin-right: 10px;
 {
 	display: flex;
 	flex-direction: row;
+	align-items: baseline;
 }
 
 
@@ -173,6 +180,7 @@ margin-right: 10px;
 {
 display: flex;
 flex-direction: row;
+align-items: baseline;
 }
 
 .ville
@@ -180,6 +188,7 @@ flex-direction: row;
 	display: flex;
 	flex-direction: column;
 	width: 10%;
+
 
 }
 
@@ -198,18 +207,17 @@ flex-direction: row;
 	display: flex;
 	flex-direction: column;
 	font-size: 1.2em;
-	line-height: 4px;
 	background-color: pink;
 
 }
 
 .sectionexperienceprofessionnelle h2
 {
-	color: pink;
+	color: black;
 	font-size: 1.5em;
-	text-align: center;
-	background-color: black;
-	padding: 20px;
+	display: flex;
+	margin-left: 20px;
+
 }
 
 .sectionrecommandations
