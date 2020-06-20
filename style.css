@@ -13,13 +13,18 @@ body
 	width: 30%;
 }
 
+.margephoto
+{
+	width: 100%;
+	background-color: blue;
+
+}
+
 .photo
 {
-	display: flex;
-	flex-direction: column;
-	background-color: blue;
-	width: 200px;
-	height: 200px;
+margin-left: 25%;
+
+
 
 }
 .sectioncontact
@@ -86,6 +91,7 @@ body
 .iconesloisirs
 {
 display: flex;
+justify-content: space-around;
 
 }
 
