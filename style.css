@@ -183,6 +183,12 @@ margin-right: 10px;
 	display: flex;
 	flex-direction: row;
 	align-items: baseline;
+	margin-left: 50px;
+}
+
+.traitseparation
+{
+	text-decoration: underline;
 }
 
 
@@ -198,6 +204,8 @@ align-items: baseline;
 	display: flex;
 	flex-direction: column;
 	width: 10%;
+	line-height: 0px;
+	margin: 50px;
 
 
 }
@@ -218,6 +226,8 @@ align-items: baseline;
 	flex-direction: column;
 	font-size: 1.2em;
 	background-color: pink;
+	align-items: center;
+	
 
 }
 
