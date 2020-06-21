@@ -119,6 +119,7 @@ justify-content: space-around;
 	background-color: white;
 	margin-top: 0px;
 	margin-left: 40px;
+	font-size: 2em;
 }
 
 .devel
@@ -138,6 +139,7 @@ justify-content: space-around;
 {
 display: flex;
 margin-left: 40px;
+font-size: 1.6em;
 
 }
 
@@ -201,7 +203,7 @@ align-items: baseline;
 {
 	display: flex;
 	flex-direction: column;
-	width: 20%;
+	width: 30%;
 	line-height: 0px;
 	margin-left:  50px;
 	margin-top: 50px;
@@ -236,7 +238,6 @@ align-items: baseline;
 	flex-direction: column;
 	font-size: 1.2em;
 	background-color: pink;
-	align-items: center;
 
 
 }
@@ -262,13 +263,17 @@ align-items: baseline;
 }
 .sectionrecommandations h2
 {
-	color: cyan;
+	color: black;
 	font-size: 1.5em;
 	text-align: center;
-	background-color: black;
 	padding: 20px;
 }
 
+.texterecommandations
+{
+	line-height: 10px;
+	margin-left: 50px;
+}
 p
 {
 	font-size: 1.2em;
