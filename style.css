@@ -11,13 +11,13 @@ body
 	display: flex;
 	flex-direction: column;
 	width: 30%;
+	background-color: #66ff33;
 }
 
 .margephoto
 {
 	width: 100%;
-	height: 8%;
-	background-color: blue;
+	height: 10%;
 
 }
 
@@ -32,7 +32,6 @@ margin-left: 25%;
 	order: 2;
 	display: flex;
 	flex-direction: column;
-	background-color: red;
 	font-family: serif;
 	font-size: 1.2em;
 	line-height: 4px;
@@ -40,7 +39,7 @@ margin-left: 25%;
 }
 .sectioncontact h3
 {
-	color: red;
+	color: #66ff33;
 	font-size: 1.5em;
 	text-align: center;
 	background-color: black;
@@ -56,14 +55,13 @@ margin-left: 25%;
 	flex-direction: column;
 	font-size: 1.2em;
 	font-family: "verdana";
-	background-color: green;
 	height: 40%;
 
 }
 
 .sectionaproposdemoi h3
 {
-	color: green;
+	color: #66ff33;
 	font-size: 1.5em;
 	text-align: center;
 	background-color: black;
@@ -76,14 +74,13 @@ margin-left: 25%;
 	order: 4;
 	display: flex;
 	flex-direction: column;
-	background-color: red;
 	height: 12%;
 }
 
 
 .sectionloisirs h3
 {
-	color: red;
+	color: #66ff33;
 	font-size: 1.5em;
 	text-align: center;
 	background-color: black;
@@ -109,7 +106,6 @@ justify-content: space-around;
 	order: 5;
 	display: flex;
 	flex-direction: column;
-	background-color: white;
 }
 
 .developpeur
@@ -126,7 +122,7 @@ justify-content: space-around;
 {
 	display: flex;
 	text-decoration: underline;
-	text-decoration-color: blue;
+	text-decoration-color: #66ff33;
 	}
 
 .oppeur
@@ -145,7 +141,7 @@ font-size: 1.6em;
 
 .olivier
 {
-color: blue;
+color: #66ff33;
 display: inline-flex;
 margin-bottom: 0px;
 margin-right: 10px;
@@ -154,7 +150,7 @@ margin-right: 10px;
 .FISCHER
 {
 	color: black;
-	display: inline-flex;
+	display: flex;
 	margin-bottom: 0px;
 
 }
@@ -166,7 +162,6 @@ margin-right: 10px;
 	flex-direction: column;
 	font-size: 1.2em;
 	font-family: "helvetica", sans-serif; 
-	background-color: orange;
 
 }
 
@@ -184,6 +179,7 @@ margin-right: 10px;
 	flex-direction: row;
 	align-items: baseline;
 	margin-left: 50px;
+	color: #66ff33;
 }
 
 .traitseparation
@@ -237,9 +233,6 @@ align-items: baseline;
 	display: flex;
 	flex-direction: column;
 	font-size: 1.2em;
-	background-color: pink;
-
-
 }
 
 .sectionexperienceprofessionnelle h2
@@ -258,7 +251,6 @@ align-items: baseline;
 	flex-direction: column;
 	font-size: 1.2em;
 	line-height: 4px;
-	background-color: cyan;
 
 }
 .sectionrecommandations h2
