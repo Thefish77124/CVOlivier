@@ -11,7 +11,7 @@ body
 	display: flex;
 	flex-direction: column;
 	width: 30%;
-	background-color: #8BC34A;
+	background-color: #AEEA00;
 }
 
 .margephoto
@@ -37,7 +37,7 @@ margin-left: 25%;
 	line-height: 4px;
 	height: 40%;
 }
-.sectioncontact h3
+.colgauche h3
 {
 	color: #66ff33;
 	font-size: 1.5em;
@@ -201,14 +201,16 @@ align-items: baseline;
 	display: flex;
 	flex-direction: column;
 	width: 30%;
-	line-height: 0px;
+	line-height: 10px;
 	margin-left:  50px;
 	margin-top: 50px;
-	margin-bottom: 0px;
-
-
+	
 }
 
+.date
+{
+	margin-bottom: 0px;
+}
 .entreprise
 {
 	display: flex;
