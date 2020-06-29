@@ -17,15 +17,15 @@ body
 .margephoto
 {
 	width: 100%;
-	height: 11%;
+	display: flex;
 	margin-top: 30px;
 
 }
 
 .photo
 {
-margin : center;
-
+justify-content: center;
+margin: auto;
 }
 
 .sectioncontactapropos
@@ -115,17 +115,39 @@ flex-direction: column;
 
 .iconesbiking
 {
-	margin: 5px 20px 10px 50px;
+	/*margin: 5px 20px 10px 50px;*/
+	width: 100%;
+	display: flex;
+	text-align: left;
+	
+}
+
+.iconesbiking i
+{
 }
 
 .iconesskiing
 {
-	margin : 5px 20px 10px 175px;
+	/*margin : 5px 20px 10px 175px;*/
+	width: 100%;
+	display: flex;
+	text-align: center;
+}
+
+.iconesskiing i
+{
 }
 
 .iconesswimmer
 {
-	margin : 5px 20px 10px 300px;
+	/*margin : 5px 20px 10px 300px;*/
+	width: 100%;
+	display: flex;
+	text-align: right;
+}
+
+.iconesswimmer i
+{
 }
 
 .coldroite
@@ -343,7 +365,7 @@ h3
 
 		}
 	.ville
-{
+	{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -352,18 +374,57 @@ h3
 	}
 
 	.entreprise
-{
+	{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
 
-}
+	}
 
 	.entrepriseintitulé
-{
+	{
 	line-height: 10px;
 	text-align: center;
 
+	}
+
+
+@media screen and (max-width: 270px)
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+.iconesloisirs
+{
+
+align-items: baseline;
+
 }
+
+.iconesbiking
+{
+	s
+}
+
+.iconesskiing
+{
+	
+}
+
+.iconesswimmer
+{
+	
+}
+
 }
