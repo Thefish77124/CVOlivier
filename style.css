@@ -67,11 +67,22 @@ h3
 
 .adressecontact
 {
-	line-height: 10px;
+	/*line-height: 10px;*/
 	margin-bottom: 75px;
 
 }
 
+.adressecontact p
+{
+	margin:auto;
+	text-align: center;
+}
+
+.titreadressecontact
+{
+	text-decoration: underline;
+	padding-bottom: 20px;
+}
 
 .sectionloisirs
 {
@@ -154,16 +165,19 @@ flex-direction: column;
 	display: flex;
 	text-decoration: underline;
 	text-decoration-color: #AEEA00;
-	line-height: 1px;
+	/*line-height: 1px;*/
 	font-size: 1.2em;
+	margin-top: 10px;
 	}
 
 .oppeur
 {
 	display: flex;
-	line-height: 1px;
+	/*line-height: 1px;*/
 	font-size: 1.2em;
+	margin-top: 10px;
 }
+
 .olivierfischer
 {
 display: flex;
@@ -223,6 +237,7 @@ margin-right: 10px;
 	border-top: 2px solid #AEEA00;
 	margin-top: 0px;
 	margin-left: 50px;
+	margin-bottom: 50px;
 }
 
 
@@ -240,15 +255,15 @@ margin-bottom: 20px;
 	display: flex;
 	flex-direction: column;
 	width: 30%;
-	line-height: 20px;
+	/*line-height: 20px;*/
 	margin-left:  50px;
-	margin-top: 8px;
+	/*margin-top: 8px;*/
 	min-width: 30%;
 }
 
 .date
 {
-	margin-bottom: 0px;
+	margin-bottom: 12px;
 }
 
 .entreprise
@@ -260,7 +275,7 @@ margin-bottom: 20px;
 
 .entrepriseintitulé
 {
-	line-height: 10px;
+	/*line-height: 10px;*/
 
 }
 
@@ -268,6 +283,7 @@ margin-bottom: 20px;
 {
 	font-size: 1.4em;
 	font-weight: bold;
+	margin-top: 25px;
 }
 
 h5
@@ -342,8 +358,8 @@ li
 @media screen and (max-width: 1130px)
 {
 
-	p
-	{ line-height: 30px; }
+	/*p
+	{ line-height: 30px; }*/
 }
 
 @media screen and (max-width: 920px)
@@ -394,3 +410,4 @@ li
 		line-height: 30px;
 	}
 
+}
