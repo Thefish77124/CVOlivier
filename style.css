@@ -52,11 +52,10 @@ h3
 
 .margeh3
 {
-	margin-top: 75px;
-	margin-bottom: 50px;
+	/*margin-top: 75px;
+	margin-bottom: 50px;*/
 	margin-left: 50px;
 	margin-right: 50px;
-
 }
 
 .policeaproposdemoi
@@ -106,6 +105,7 @@ flex-direction: column;
 	display: flex;
 	justify-content: flex-start;
 	margin-left: 5px;
+
 	}
 
 .iconesbiking i
@@ -361,13 +361,6 @@ li
 	line-height: 30px;
 }
 
-@media screen and (max-width: 1130px)
-{
-
-	/*p
-	{ line-height: 30px; }*/
-}
-
 @media screen and (max-width: 920px)
 {
 	body
@@ -416,8 +409,87 @@ li
 		line-height: 30px;
 	}
 
+.iconesbiking
+	{
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+
+.iconesskiing
+{
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.iconesswimmer
+{
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+
 @media screen and (max-width: 768px)
-{}
+{
+.sectioncontactapropos
+{
+font-size: 0.8em;
+}
+
+.adressecontact
+{
+		margin-bottom: 30px;
+}
+
+.titreadressecontact
+{
+		padding-bottom: 5px;
+}
+
+.olivier
+{
+font-size: 1.6em;
+}
+
+.FISCHER
+{
+font-size: 1.6em;
+}
+
+.devel
+{
+font-size: 0.8em;
+}
+
+.oppeur
+{
+font-size: 0.8em;
+}
+
+
+
+
+.iconesbiking
+	{
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+
+.iconesskiing
+{
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.iconesswimmer
+{
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+
+}
 
 @media screen and (max-width: 576px)
 {}
