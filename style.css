@@ -374,7 +374,9 @@ li
 
 
 	p
-	{ line-height: 10px; }
+	{ 
+		line-height: 10px;
+	 }
 
 
 .colgauche
@@ -407,7 +409,7 @@ li
 .coldroite p
 	{
 		line-height: 30px;
-	}
+		}
 
 .iconesbiking
 	{
@@ -431,9 +433,10 @@ li
 
 @media screen and (max-width: 768px)
 {
-.sectioncontactapropos
+
+body
 {
-font-size: 0.8em;
+	font-size: 0.8em;
 }
 
 .adressecontact
@@ -446,29 +449,12 @@ font-size: 0.8em;
 		padding-bottom: 5px;
 }
 
-.olivier
+.developpeur
 {
 font-size: 1.6em;
 }
 
-.FISCHER
-{
-font-size: 1.6em;
-}
-
-.devel
-{
-font-size: 0.8em;
-}
-
-.oppeur
-{
-font-size: 0.8em;
-}
-
-
-
-
+/*
 .iconesbiking
 	{
 		font-size: 30px;
@@ -488,11 +474,8 @@ font-size: 0.8em;
 	margin-top: 10px;
 }
 
-
+*/
 }
-
-@media screen and (max-width: 576px)
-{}
 
 @media screen and (max-width: 576px)
 {}
