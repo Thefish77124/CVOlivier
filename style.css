@@ -3,7 +3,7 @@ body
 	display: flex;
 	/*flex-direction: row;*/
 	width: 100%;
-	overflow-x:hidden;
+	overflow-x:hidden; /*cache ce qui sort de l'écran*/
 }
 
 .colgauche
@@ -25,7 +25,9 @@ body
 .photo
 {
 justify-content: center;
-margin: auto;
+margin: auto; /*photo centrée*/
+max-width: 100%; /*taille de l'image*/
+height: auto; /*photo proportionnée*/
 }
 
 .sectioncontactapropos
@@ -52,8 +54,8 @@ h3
 
 .margeh3
 {
-	/*margin-top: 75px;
-	margin-bottom: 50px;*/
+	margin-top: auto;
+	margin-bottom: auto;
 	margin-left: 50px;
 	margin-right: 50px;
 }
@@ -81,6 +83,7 @@ h3
 {
 	text-decoration: underline;
 	padding-bottom: 20px;
+	font-weight: bolder;
 }
 
 .sectionloisirs
@@ -91,17 +94,21 @@ h3
 	height: 15%;
 	font-family: serif;
 	font-size: 1.2em;
+	width: 100%;
 }
 
 .iconesloisirs
 {
 display: flex;
 flex-direction: column;
+width: 100%;
+max-width: 100%;
+height: auto;
 }
 
 .iconesbiking
 {
-	width: 100%;
+	/*width: 100%;*/
 	display: flex;
 	justify-content: flex-start;
 	margin-left: 5px;
@@ -115,7 +122,7 @@ flex-direction: column;
 .iconesskiing
 {
 	/*margin : 5px 20px 10px 175px;*/
-	width: 100%;
+	/*width: 100%;*/
 	display: flex;
 	justify-content: center;
 }
@@ -126,10 +133,10 @@ flex-direction: column;
 
 .iconesswimmer
 {
-	/*margin : 5px 20px 10px 300px;*/
-	width: 100%;
+	/*width: 100%;*/
 	display: flex;
 	justify-content: flex-end;
+	margin-right: 5px;
 }
 
 .iconesswimmer i
@@ -166,7 +173,6 @@ flex-direction: column;
 	display: flex;
 	text-decoration: underline;
 	text-decoration-color: #AEEA00;
-	/*line-height: 1px;*/
 	font-size: 1.2em;
 	margin-top: 10px;
 	}
@@ -174,7 +180,6 @@ flex-direction: column;
 .oppeur
 {
 	display: flex;
-	/*line-height: 1px;*/
 	font-size: 1.2em;
 	margin-top: 10px;
 }
@@ -234,11 +239,13 @@ margin-right: 10px;
 
 .trait
 {
-	width: 100%;
+	/*width: 100%;
+	max-width: 100%;*/
 	border-top: 2px solid #AEEA00;
 	margin-top: 0px;
 	margin-left: 50px;
 	margin-bottom: 50px;
+	margin-right: 20px;
 }
 
 
@@ -246,7 +253,7 @@ margin-right: 10px;
 {
 display: flex;
 flex-direction: row;
-align-items: flex-start;
+/*align-items: flex-start;*/
 margin-top: 0px;
 margin-bottom: 20px;
 }
@@ -256,9 +263,7 @@ margin-bottom: 20px;
 	display: flex;
 	flex-direction: column;
 	width: 30%;
-	/*line-height: 20px;*/
 	margin-left:  50px;
-	/*margin-top: 8px;*/
 	min-width: 30%;
 }
 
@@ -271,13 +276,12 @@ margin-bottom: 20px;
 {
 	display: flex;
 	flex-direction: column;
-	margin-left: 30px;
+	width: 70%;
+	/*margin-left: 30px;*/
 }
 
 .entrepriseintitulé
 {
-	/*line-height: 10px;*/
-
 }
 
 .entrepriseformation
@@ -378,6 +382,14 @@ li
 		line-height: 10px;
 	 }
 
+.photo
+{
+justify-content: center;
+margin: auto; /*photo centrée*/
+max-width: 100%; /*taille de l'image*/
+width: auto;
+height: auto; /*photo proportionnée*/
+}
 
 .colgauche
 {
@@ -390,7 +402,7 @@ li
 .adressecontact
 {
 	line-height: normal;
-	margin-bottom: 75px;
+	margin-bottom: 20px;
 	text-align: center;
 }
 
@@ -429,7 +441,7 @@ li
 	font-size: 30px;
 	margin-top: 10px;
 }
-
+}
 
 @media screen and (max-width: 768px)
 {
@@ -441,7 +453,7 @@ body
 
 .adressecontact
 {
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 }
 
 .titreadressecontact
@@ -452,6 +464,7 @@ body
 .developpeur
 {
 font-size: 1.6em;
+margin-bottom: 0px;
 }
 
 /*
@@ -478,10 +491,88 @@ font-size: 1.6em;
 }
 
 @media screen and (max-width: 576px)
-{}
+{
+	body
+{
+	display: flex;
+	flex-direction: column;
+}
+
+h4
+{
+	margin-bottom: 5px;
+	}
+h5
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+ul
+{
+	margin-top: 10px;
+	list-style: none
+}
+
+.iconeformation
+{
+	text-align: center;
+}
+
+.sectionformation
+{
+	text-align: center;
+}
+.villeentreprise
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 0px;
+}
+
+.date
+{
+	margin: 0px;
+}
+
+.ville p
+{
+	margin: 0px;
+}
+
+.entrepriseformation
+{
+	margin-top: 10px;
+}
 
 @media screen and (max-width: 425px)
-{}
+{
+
+body
+{
+	font-size: 0.6em;
+}
+
+.developpeur
+{
+
+margin: auto;
+}
+.olivierfischer
+{
+margin: auto;
+}
+.olivier
+{
+margin: auto;
+margin-right: 10px;
+}
+.FISCHER
+{
+	margin: auto;
+}
+}
 
 @media screen and (max-width: 375px)
 {}
