@@ -14,6 +14,10 @@ body
 	background-color: #AEEA00;
 }
 
+.photo
+{
+	order: 1;
+}
 .margephoto
 {
 	width: 100%;
@@ -21,7 +25,7 @@ body
 	margin: 30px 0px;
 }
 
-.photo
+.photosimon
 {
 justify-content: center;
 margin: auto; /*photo centrée*/
@@ -88,7 +92,7 @@ h3
 
 .sectionloisirs
 {
-	order: 4;
+	order: 3;
 	display: flex;
 	flex-direction: column;
 	height: 15%;
@@ -150,7 +154,7 @@ height: auto;
 
 .header
 {
-	order: 5;
+	order: 4;
 	display: flex;
 	flex-direction: column;
 }
@@ -208,7 +212,7 @@ margin-right: 10px;
 
 .sectioncoldroite
 {
-	order: 6;
+	order: 5;
 	display: flex;
 	flex-direction: column;
 	font-size: 1.4em;
@@ -316,6 +320,25 @@ h5
 	margin-top: 0px;
 }
 
+.sectionrecommandations
+{
+	order: 6;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.4em;
+	font-family: Serif, sans-serif; 
+
+}
+
+.sectionrecommandations h2
+{
+	color: black;
+	font-size: 1.7em;
+	display: flex;
+	margin-left: 20px;
+	margin-bottom: 0px;
+}
+
 .texterecommandations
 {
 	/*line-height: 10px;*/
@@ -359,7 +382,7 @@ li
 		line-height: 10px;
 	 }
 
-.photo
+.photosimon
 {
 justify-content: center;
 margin: auto; /*photo centrée*/
@@ -439,6 +462,28 @@ body
 	font-size: 0.8em;
 }
 
+.photo
+{
+	order: 1;
+}
+.sectioncontactapropos
+{
+	
+	order: 2;
+}
+.sectionloisirs
+{
+	order: 4;
+}
+.header
+{
+	order: 5;
+}
+.sectioncoldroite
+{
+	order: 6;
+}
+
 .adressecontact
 {
 		margin-bottom: 20px;
@@ -493,7 +538,7 @@ margin-bottom: 0px;
 	margin: 15px 0px;
 }
 
-.photo
+.photosimon
 {
 max-width: 30%; /*taille de l'image*/
 }
@@ -618,6 +663,17 @@ margin-top: 20px;
 .entreprise
 {
 	border-bottom: 1.5px solid #AEEA00;
+}
+
+.sectionrecommandations
+{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.sectionrecommandations h2
+{
+	margin: auto;
 }
 
 .texterecommandations
