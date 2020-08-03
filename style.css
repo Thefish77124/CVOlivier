@@ -287,26 +287,6 @@ h5
 	font-size: 1.1em;
 }
 
-/*.sectionexperienceprofessionnelle
-{
-	order: 7;
-	display: flex;
-	flex-direction: column;
-	font-size: 1.2em;
-	margin-top: 0px;
-	font-family: "Roboto", "helvetica", sans-serif; 
-}	
-
-.sectionexperienceprofessionnelle h2
-{
-	color: black;
-	font-size: 1.7em;
-	display: flex;
-	margin-left: 20px;
-	margin-bottom: 0px;
-	font-weight: bolder;
-}*/
-
 .siteinternet
 {
 	margin-top: 0px;
