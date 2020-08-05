@@ -31,6 +31,8 @@ justify-content: center;
 margin: auto; /*photo centrée*/
 max-width: 100%; /*taille de l'image*/
 height: auto; /*photo proportionnée*/
+border: 7px solid rgb(0, 0, 0, 0.1);
+border-radius: 50%;
 }
 
 .sectioncontactapropos
