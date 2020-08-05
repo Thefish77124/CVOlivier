@@ -106,42 +106,54 @@ h3
 .iconesloisirs
 {
 display: flex;
-flex-direction: column;
-width: 100%;
-max-width: 100%;
-height: auto;
+flex-direction: row;
+justify-content: space-around;
 }
 
 .iconesbiking
 {
-	display: flex;
-	justify-content: flex-start;
-	margin-left: 5px;
-	}
+	border : 2px solid black;
+	border-radius: 50%;
+	font-size: 17px;
+	width: 85px;
+	height: 85px;
+}
 
 .iconesbiking i
 {
-}
+
+	padding-top: 10px;
+	padding-left: 10px;
+	}
 
 .iconesskiing
 {
-	display: flex;
-	justify-content: center;
+	border : 2px solid black;
+	border-radius: 50%;
+	font-size: 17px;
+	width: 85px;
+	height: 85px;
 }
 
 .iconesskiing i
 {
-}
+	padding-top: 10px;
+	padding-left: 10px;
+	}
 
 .iconesswimmer
 {
-	display: flex;
-	justify-content: flex-end;
-	margin-right: 5px;
+	border : 2px solid black;
+	border-radius: 50%;
+	font-size: 17px;
+	width: 85px;
+	height: 85px;
 }
 
 .iconesswimmer i
 {
+	padding-top: 10px;
+	padding-left: 10px;
 }
 
 .coldroite
@@ -384,30 +396,6 @@ height: auto; /*photo proportionnée*/
 		line-height: 25px;
 	}
 
-.iconesloisirs
-{
-	flex-direction: row;
-	margin-bottom: 32px;
-}
-
-.iconesbiking
-	{
-		font-size: 40px;
-		margin: auto;
-	}
-
-.iconesskiing
-{
-	font-size: 40px;
-	margin:auto;
-}
-
-.iconesswimmer
-{
-	font-size: 40px;
-	margin: auto;
-}
-
 .coldroite
 {
 	display: flex;
@@ -474,24 +462,6 @@ body
 {
 font-size: 1.6em;
 margin-bottom: 0px;
-}
-
-.iconesbiking
-	{
-		font-size: 30px;
-		margin: auto;
-	}
-
-.iconesskiing
-{
-	font-size: 30px;
-	margin:auto;
-}
-
-.iconesswimmer
-{
-	font-size: 30px;
-	margin: auto;
 }
 
 .texterecommandations p
@@ -586,24 +556,6 @@ p
 	align-items: normal;
 }
 
-.iconesbiking
-	{
-		font-size: 20px;
-		margin: auto;
-	}
-
-.iconesskiing
-{
-	font-size: 20px;
-	margin:auto;
-}
-
-.iconesswimmer
-{
-	font-size: 20px;
-	margin: auto;
-}
-
 .sectioncoldroite
 {
 	text-align: center;
@@ -678,20 +630,29 @@ body
 
 .iconesbiking
 	{
-		font-size: 15px;
-		margin: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 10px;
+    width: 55px;
+    height: 55px;
 	}
 
 .iconesskiing
 {
-	font-size: 15px;
-	margin:auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 10px;
+    width: 55px;
+    height: 55px;
 }
 
 .iconesswimmer
 {
-	font-size: 15px;
-	margin: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 10px;
+    width: 55px;
+    height: 55px;
 }
 
 .coldroite
