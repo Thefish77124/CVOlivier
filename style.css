@@ -328,13 +328,29 @@ h5
 {
 	/*line-height: 10px;*/
 	margin-left: 50px;
+	display: flex;
 }
 
 .texterecommandations p
 {
-	padding-bottom: 10px;
+	margin:auto;
+
 }
 
+.texterecommandationsgauche
+{
+	width: 50%;
+}
+
+.texterecommandationsdroite
+{
+	width: 50%;
+}
+.nom
+{
+	font-weight: bold;
+	line-height: 50px;
+}
 p
 {
 	font-size: 1.2em;
