@@ -631,10 +631,31 @@ margin-top: 20px;
 
 .texterecommandations
 {
-	margin-top : 20px ;
-	margin-left: 0px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin : auto ;
+	text-align: center;
+	/*margin-left: 0px;*/
 }
 
+.texterecommandationsgauche
+{
+		margin-bottom: 20px;
+		margin-top: 20px;
+		width: 100%;
+}
+
+.traitrecommandations
+{
+	margin-left: 70px;
+	margin-right: 70px;
+	border-bottom: 1.5px solid #AEEA00;
+}
+.texterecommandationsdroite
+{
+	margin-top: 20px;
+	width: 100%;
 }
 
 @media screen and (max-width: 425px)
